@@ -1,15 +1,3 @@
-#!/usr/bin/env python3
-"""
-procesar_consumo.py
-Módulo 2 – Procesamiento de Datos (Python)
-
-1. Conexión y extracción: se conecta a la base de datos SQLite 'energy_data.db'
-   y extrae todos los datos de la tabla 'consumos'.
-2. Procesamiento y agregación: con pandas calcula el consumo total mensual
-   agrupado por 'fuente' y 'ubicacion'.
-3. Exporta el resultado a 'reporte_consumo_mensual.csv'.
-"""
-
 import sqlite3
 from pathlib import Path
 import pandas as pd
